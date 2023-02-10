@@ -1,0 +1,8 @@
+#!/bin/bash
+str=$(ls -l hello | grep guillaume)
+
+
+if [ $str]; then
+
+       chowm betty hello
+fi
