@@ -1,2 +1,2 @@
 #!/bin/bash
-mv < find . -name "[A-Z]*" /tmp/u
+mv  `ls [A-Z]* | grep -v ^d` /temp/u
