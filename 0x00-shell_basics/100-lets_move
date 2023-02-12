@@ -1,2 +1,2 @@
 #!/bin/bash
-mv  `ls [A-Z]* | grep -v ^d` /temp/u
+mv `ls [A-Z]* | grep -v ^d` /temp/u
