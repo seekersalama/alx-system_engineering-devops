@@ -1,0 +1,3 @@
+#!/bin/bash
+array=`echo {a..z}{a..z} | sort`
+array=("${array[@]:379}")
